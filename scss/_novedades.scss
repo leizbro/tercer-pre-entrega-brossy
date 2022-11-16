@@ -1,5 +1,22 @@
 /* NOVEDADES */
 
 .cardNovedades {
-    margin: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    background-color: $color-fondo-terciario;
+    border-radius: 4px;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.card-text {
+    font-size:medium;
+}
+
+.boton-card {
+    background-color: $color-fondo-secundario;
+    margin: auto;
+    font-weight: bolder;
 }

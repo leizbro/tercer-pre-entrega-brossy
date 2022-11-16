@@ -1,17 +1,143 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 8 | @import "nosotros";
- *   |         ^^^^^^^^^^
- *   '
- *   scss\estilo.scss 8:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 8 \2502  @import \"nosotros\";\d\a   \2502          ^^^^^^^^^^\a   \2575 \a   scss\\estilo.scss 8:9  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); /* VARIABLES */ /* GENERAL */
+html {
+  font-size: 85%;
 }
+
+body {
+  background-color: #bfe5ef;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  color: #000000;
+}
+
+h1 {
+  color: #118AB2;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.derechosFooter {
+  font-size: 1rem;
+  margin-top: 30px;
+  font-weight: 200;
+}
+
+/* HEADER */
+.encabezado {
+  height: 12rem;
+}
+.encabezado .nav-link {
+  text-decoration: none;
+  color: #118AB2;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: all 0.3s ease;
+}
+.encabezado .nav-link:hover {
+  color: #EF476F;
+}
+.encabezado .navbar-marca {
+  display: inline-block;
+}
+.encabezado h1 {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.encabezado li {
+  margin-right: 2rem;
+}
+
+.parrafoBienvenida {
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+span {
+  font-weight: 500;
+  color: #EF476F;
+}
+
+/* CONTACTO */
+.mainContacto {
+  display: flex;
+  justify-content: center;
+}
+
+.formularioContacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #118AB2;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1.5rem;
+}
+.formularioContacto:hover {
+  color: #EF476F;
+}
+
+/* NOVEDADES */
+.cardNovedades {
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: #ADE8F4;
+  border-radius: 4px;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+.card-text {
+  font-size: medium;
+}
+
+.boton-card {
+  background-color: #327eb2;
+  margin: auto;
+  font-weight: bolder;
+}
+
+/* NOSOTROS */
+.parrafoNosotros {
+  font-size: medium;
+}
+
+.carousel-item {
+  height: 400px;
+  object-fit: contain;
+}
+
+/* FOOTER */
+footer {
+  background-color: #327eb2;
+  width: 100%;
+  padding: 50px 0px;
+  background-size: cover;
+}
+
+.redesSociales {
+  color: #EF476F;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,28 @@
+// HERO
+
+    h1 {
+    color: $color-fuentes-secundario;
+    font-size: 3rem;
+    font-weight: 400;
+    }
+
+    .parrafoBienvenida {
+            animation-duration: 4s;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;
+         }
+         
+         
+         @keyframes aparecer {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;        
+            }
+         }
+        
+    span {
+        font-weight: 500;
+        color: $color-fuentes-terciario;
+    }

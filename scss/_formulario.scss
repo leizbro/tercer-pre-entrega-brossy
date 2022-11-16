@@ -1,0 +1,16 @@
+/* CONTACTO */
+
+.mainContacto {
+    display: flex;
+    justify-content: center;
+}
+
+.formularioContacto {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 4px;
+    @include anclas;
+    padding: 0.5rem 1.5rem;
+    }
+

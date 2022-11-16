@@ -1,0 +1,22 @@
+/* GENERAL */
+
+html {
+    font-size: 85%;
+}
+
+body {
+    background-color: $color-fondo;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    }
+
+h1 {
+    font-size: 90%;
+    font-weight: 400;
+    color: $color-fuentes-secundario;
+}
+
+p {
+    font-weight: 300;
+    font-size: 2rem;
+}

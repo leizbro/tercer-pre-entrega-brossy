@@ -1,111 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); /* VARIABLES */ /* GENERAL */
-html {
-  font-size: 85%;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 8 | @import "nosotros";
+ *   |         ^^^^^^^^^^
+ *   '
+ *   scss\estilo.scss 8:9  root stylesheet */
 
-body {
-  background-color: #bfe5ef;
-  font-family: "Montserrat", sans-serif;
-  overflow-x: hidden;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 8 \2502  @import \"nosotros\";\d\a   \2502          ^^^^^^^^^^\a   \2575 \a   scss\\estilo.scss 8:9  root stylesheet";
 }
-
-h1 {
-  font-size: 90%;
-  font-weight: 400;
-  color: #118AB2;
-}
-
-p {
-  font-weight: 300;
-  font-size: 2rem;
-}
-
-h1 {
-  color: #118AB2;
-  font-size: 3rem;
-  font-weight: 400;
-}
-
-.parrafoBienvenida {
-  animation-duration: 4s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite;
-}
-
-@keyframes aparecer {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-span {
-  font-weight: 500;
-  color: #EF476F;
-}
-
-/* HEADER */
-.encabezado {
-  height: 12rem;
-}
-.encabezado .nav-link {
-  text-decoration: none;
-  color: #118AB2;
-  font-size: 1rem;
-  font-weight: 800;
-  transition: all 0.3s ease;
-}
-.encabezado .nav-link:hover {
-  color: #EF476F;
-}
-.encabezado .navbar-marca {
-  display: inline-block;
-}
-.encabezado h1 {
-  text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-.encabezado li {
-  margin-right: 2rem;
-}
-
-/* CONTACTO */
-.mainContacto {
-  display: flex;
-  justify-content: center;
-}
-
-.formularioContacto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #118AB2;
-  font-size: 1rem;
-  font-weight: 800;
-  transition: all 0.3s ease;
-  padding: 0.5rem 1.5rem;
-}
-.formularioContacto:hover {
-  color: #EF476F;
-}
-
-/* FOOTER */
-footer {
-  background-color: #327eb2;
-  width: 100%;
-  padding: 50px 0px;
-  background-size: cover;
-}
-
-.redesSociales {
-  color: #EF476F;
-  margin: 10px auto;
-}
-
-/* NOVEDADES */
-
-/*# sourceMappingURL=estilo.css.map */

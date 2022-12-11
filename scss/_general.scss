@@ -1,13 +1,19 @@
 /* GENERAL */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-size: 85%;
 }
 
+
 body {
     background-color: $color-fondo;
-    font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
     color: $color-fuentes;
     }
 

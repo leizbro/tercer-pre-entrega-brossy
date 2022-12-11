@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"); /* VARIABLES */ /* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 85%;
 }
 
 body {
   background-color: #bfe5ef;
-  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
   color: #000000;
 }
 
@@ -34,7 +39,7 @@ p {
 .encabezado .nav-link {
   text-decoration: none;
   color: #118AB2;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 800;
   transition: all 0.3s ease;
 }
@@ -85,7 +90,7 @@ span {
   border-radius: 4px;
   text-decoration: none;
   color: #118AB2;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 800;
   transition: all 0.3s ease;
   padding: 0.5rem 1.5rem;
@@ -101,12 +106,15 @@ span {
   background-color: #ADE8F4;
   border-radius: 4px;
   border-radius: 1rem;
-  padding: 0.4rem;
+  padding: 0.5rem;
   max-width: 100%;
+  height: auto;
+  text-align: center;
 }
 
 .card-title {
   font-weight: bolder;
+  margin-top: 2rem;
 }
 
 .card-text {
@@ -117,6 +125,9 @@ span {
   background-color: #327eb2;
   margin: auto;
   font-weight: bolder;
+}
+.boton-card:hover {
+  color: #EF476F;
 }
 
 /* NOSOTROS */
@@ -129,16 +140,27 @@ span {
   object-fit: contain;
 }
 
+.mainNosotros {
+  margin-bottom: 0%;
+  margin: auto;
+  padding: 2%;
+}
+
 /* FOOTER */
 footer {
   background-color: #327eb2;
   width: 100%;
-  padding: 50px 0px;
+  padding: auto;
   background-size: cover;
+  max-height: 20%;
+}
+
+.imagenFooter {
+  max-height: 5rem;
 }
 
 .redesSociales {
-  color: #EF476F;
+  color: #bfe5ef;
   margin-right: 10px;
   margin-bottom: 30px;
 }

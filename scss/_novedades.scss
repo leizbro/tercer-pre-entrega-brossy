@@ -6,12 +6,15 @@
     background-color: $color-fondo-terciario;
     border-radius: 4px;
     border-radius: 1rem;
-    padding: 0.4rem;
+    padding: 0.5rem;
     max-width: 100%;
+    height: auto;
+    text-align: center;
 }
 
 .card-title {
     font-weight: bolder;
+    margin-top: 2rem;
 }
 
 .card-text {
@@ -22,4 +25,7 @@
     background-color: $color-fondo-secundario;
     margin: auto;
     font-weight: bolder;
+    &:hover {
+        color:$color-fuentes-terciario;
+}
 }

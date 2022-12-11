@@ -3,13 +3,17 @@
 footer {
     background-color: $color-fondo-secundario;
 	width: 100%;
-	padding: 50px 0px;
+	padding: auto;
 	background-size: cover;
+    max-height: 20%;
 }
 
+.imagenFooter {
+    max-height: 5rem;
+}
 
 .redesSociales {
-    color: $color-fuentes-terciario;
+    color: $color-fondo;
     margin-right: 10px;
     margin-bottom: 30px;
 }
